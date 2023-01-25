@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,900;1,100;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Kanit, sans-serif;
+}
+
+body {
+    margin: 0
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+header {
+    background-color: black;
+}
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.logo-nav {
+    transform: translate(0px, top);
+    height: 250px;
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 7%;
+    padding-bottom: 25px;
+
+}
+
+header a {
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: regular;
+    color: white;
+    font-size: 1.25rem;
+}
+
+#inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: url(img/imagen2.jpg);
+    background-color: rgb(38, 38, 38);
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#inicio h1 {
+    font-size: 4.0rem;
+    color: white;
+}
+
+#inicio p {
+    font-size: 1.3rem;
+    color: white;
+}
+
+#servicios {
+    align-items: center;
+    color: white;
+    background-color: rgb(10, 10, 10);
+
+}
+
+#servicios h3 {
+    font-size: 1.7rem;
+}
+
+#servicios p {
+    font-size: 1.3rem;
+    line-height: 25px;
+    font-weight: 200;
+
+}
+
+#servicios .container {
+    text-align: center;
+    padding: 80px 10px;
+}
+
+.titulos {
+    font-size: 2.6rem;
+}
+
+.titulos h1 {
+    font-weight: 400;
+}
+
+#servicios .titulos {
+    padding-bottom: 80px;
+    line-height: 1;
+}
+
+#servicios .cartas-container {
+    display: grid;
+    gap: 2.0rem;
+    grid-template-columns: repeat(auto-fill,minmax(280px, 1fr));
+}
+
+#servicios .cartas {
+    display: grid;
+    text-align: center;
+    background-color: rgb(20, 19, 19);
+    padding: 1.5rem;
+    border-radius: 9px;
+}
+
+#nosotros .container {
+    text-align: center;
+    padding: 80px 10px;
+}
+
+#el-estudio .descripcion-estudios {
+    padding: 30px;
+    font-size: 1.4rem;
+    line-height: 1;
+
+}
+
+#el-estudio .estudios-container {
+    display: grid;
+    gap: 2.0rem;
+    grid-template-columns: repeat(auto-fill,minmax(450px, 2fr));
+}
+
+#el-estudio .estudios .divisor-estudio {
+    margin: auto;
+    max-width: 300px;
+}
+
+#el-estudio .estudios {
+    padding: 15px;
+}
+
+#el-estudio img {
+    padding: 30px;
+    width: 100%;
+    max-width: 500px;
+}
+
+#el-estudio h3 {
+    font-weight: 200;
+    font-size: 2.4rem;
+}
+
+#el-estudio .estudios p {
+    font-size: 1.5rem;
+}
+
+#el-estudio .container {
+    text-align: center;
+    padding: 80px 10px;
+}
+
+#nosotros {
+    color: white;
+    background-color: rgb(20, 19, 19);
+
+}
+
+#nosotros .container {
+    text-align: center;
+    padding: 80px 10px;
+}
+
+#nosotros .titulos {
+    line-height: 1;
+    padding-bottom: 80px;
+}
+
+#nosotros img {
+    width: 300px;
+    height: 300;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+#nosotros .biografias {
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(400px, 2fr));
+    gap: 2.0rem;
+    justify-content: center;
+}
+
+#nosotros h2 {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+#nosotros h3 {
+    font-size: 1.4rem;
+    padding-bottom: 20px;
+}
+
+#nosotros p {
+    padding: 10px;
+    text-align: justify;
+    font-size: 1.3rem;
+    line-height: 25px;
+    font-weight: 200;
+}
